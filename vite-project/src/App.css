@@ -1,3 +1,9 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 nav{
@@ -5,7 +11,10 @@ nav{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  align-content: center;
   width: 100%;
+  height: 8vh;
+  background-color: aqua;
 }
 
 ul{
@@ -17,6 +26,7 @@ ul{
   width: 90%;
 }
 li{
+  font-family: "Roboto", sans-serif;
   display: flex;
   margin: 5%;
 

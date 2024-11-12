@@ -4,8 +4,10 @@ export default function NavBar(){
         <nav>
             <ul>
                 <li>home</li>
-                <li>contato</li>
-                <li>cadastrar</li>
+                <li>duvidas</li>
+                <li>planos</li>
+                <li>Produtos</li>
+                <li>Portugues</li>
             </ul>
         </nav>
     
