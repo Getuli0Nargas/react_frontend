@@ -1,19 +1,23 @@
+import { Link } from "react-router-dom";
+import Logo from "./logo";
+import Portuga from "./Portuga";
 export default function NavBar(){
  return(
     <>
         <nav>
             <ul>
-                <li>home</li>
-                <li>duvidas</li>
-                <li>planos</li>
+                <Logo />
+                <li>Home</li>
+                <Link to={'/duvidas'}>Dúvidas</Link>
+                <li>Planos</li>
                 <li>Produtos</li>
-                <li>Portugues</li>
+                <Portuga/>
             </ul>
         </nav>
-    
-    
-    
+       
     </>
+
+            
 
 
 
