@@ -1,11 +1,11 @@
 import NavBar from "../components/NavBar"
 
-export default function Duvidas(){
+export default function Contato(){
     return( 
 
     <>
         <NavBar />
-        <p>Duvidas sobre a OLIMPO?</p>
+        <p>Se precisar entre em contato com a nossa equipe</p>
         
     </>
     )

@@ -1,11 +1,11 @@
 import NavBar from "../components/NavBar"
 
-export default function Duvidas(){
+export default function Planos(){
     return( 
 
     <>
         <NavBar />
-        <p>Duvidas sobre a OLIMPO?</p>
+        <p>Qual plano você deseja</p>
         
     </>
     )
