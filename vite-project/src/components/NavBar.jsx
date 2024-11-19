@@ -7,10 +7,10 @@ export default function NavBar(){
         <nav>
             <ul>
                 <Logo />
-                <Link to={'/home'}>Home</Link>
-                <Link to={'/duvidas'}>Dúvidas</Link>
-                <Link to={'/planos'}>Planos</Link>
-                <Link to={'/contato'}>Contato</Link>
+                <li><Link to={'/home'}>Home</Link></li>
+                <li><Link to={'/duvidas'}>Duvidas</Link></li>
+                <li><Link to={'/planos'}>Planos</Link></li>
+                <li><Link to={'/contato'}>Contato</Link></li>
                 <Portuga/>
             </ul>
         </nav>
